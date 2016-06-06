@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:progress="http://schemas.android.com/apk/com.lvmama.progressbar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.lvmama.progressbar.HorizonProgressBar
+        android:id="@+id/progress2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:progress="0"
+        app:reachColor="@android:color/holo_red_dark"
+        app:reachHeight="40dp"
+        app:unReachColor="@android:color/holo_red_light"
+        app:unReachHeight="40dp">
+    </com.lvmama.progressbar.HorizonProgressBar>
+
+    <com.lvmama.progressbar.HorizonProgressBar
+        android:id="@+id/progress1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:progress="0"
+        app:reachColor="@android:color/holo_green_dark"
+        app:unReachColor="@android:color/holo_green_light"
+        progress:textColor="@android:color/holo_orange_light"
+        progress:textHeight="12sp">
+    </com.lvmama.progressbar.HorizonProgressBar>
+
+
+    <com.lvmama.progressbar.HorizonProgressBar
+        android:id="@+id/progress3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:progress="0"
+        app:reachColor="@android:color/holo_orange_dark"
+        app:unReachColor="@android:color/holo_orange_light"
+        progress:textColor="@android:color/holo_orange_light"
+        progress:textHeight="12sp">
+    </com.lvmama.progressbar.HorizonProgressBar>
+
+</LinearLayout>
