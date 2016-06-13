@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/piechart/piechart.iml" filepath="$PROJECT_DIR$/piechart/piechart.iml" />
       <module fileurl="file://$PROJECT_DIR$/progressbar/progressbar.iml" filepath="$PROJECT_DIR$/progressbar/progressbar.iml" />
       <module fileurl="file://$PROJECT_DIR$/refreshableview/refreshableview.iml" filepath="$PROJECT_DIR$/refreshableview/refreshableview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/topbar/topbar.iml" filepath="$PROJECT_DIR$/topbar/topbar.iml" />
     </modules>
   </component>
 </project>

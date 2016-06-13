@@ -1,1 +1,1 @@
-include ':app', ':piechart', ':refreshableview', ':canvastest', ':progressbar'
+include ':app', ':piechart', ':refreshableview', ':canvastest', ':progressbar', ':topbar'

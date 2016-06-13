@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/piechart" />
             <option value="$PROJECT_DIR$/progressbar" />
             <option value="$PROJECT_DIR$/refreshableview" />
+            <option value="$PROJECT_DIR$/topbar" />
           </set>
         </option>
         <option name="myModules">
@@ -23,6 +24,7 @@
             <option value="$PROJECT_DIR$/piechart" />
             <option value="$PROJECT_DIR$/progressbar" />
             <option value="$PROJECT_DIR$/refreshableview" />
+            <option value="$PROJECT_DIR$/topbar" />
           </set>
         </option>
       </GradleProjectSettings>

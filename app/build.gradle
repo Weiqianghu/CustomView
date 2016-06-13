@@ -27,4 +27,5 @@ dependencies {
     compile project(':refreshableview')
     compile project(':canvastest')
     compile project(':progressbar')
+    compile project(':topbar')
 }

@@ -15,6 +15,7 @@ import com.lvmama.piechart.PieChartActivity;
 import com.lvmama.progressbar.ProgressActivity;
 import com.lvmama.refreshableview.RefreshListener;
 import com.lvmama.refreshableview.RefreshableLayout;
+import com.lvmama.topbar.TopBarActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     private Button mButton;
     private Button mBtnPie;
     private Button mBtnProgress;
-
+    private Button mBtnTopBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -106,7 +107,8 @@ public class MainActivity extends AppCompatActivity {
         mBtnPie.setOnClickListener(click);
         mBtnProgress = (Button) findViewById(R.id.btn_progress);
         mBtnProgress.setOnClickListener(click);
-
+        mBtnTopBar = (Button) findViewById(R.id.btn_top_bar);
+        mBtnTopBar.setOnClickListener(click);
     }
 
     class Click implements View.OnClickListener {
@@ -124,6 +126,10 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 case R.id.btn_progress:
                     intent = new Intent(MainActivity.this, ProgressActivity.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn_top_bar:
+                    intent = new Intent(MainActivity.this, TopBarActivity.class);
                     startActivity(intent);
                     break;
             }
